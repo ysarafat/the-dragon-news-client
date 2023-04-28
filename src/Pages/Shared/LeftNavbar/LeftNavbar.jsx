@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 const LeftNavbar = () => {
     const [categories, setCategories] = useState([])
     useEffect(()=>{
-        fetch('http://localhost:5000/categories')
+        fetch('https://the-dragon-news-server-flame.vercel.app/categories')
         .then(res => res.json())
         .then(data => {
             setCategories(data)
