@@ -23,7 +23,7 @@ const Login = () => {
         })
     }
     return (
-        <Container className='bg-light w-50 p-5 mt-5 pt-5'>
+        <Container className='bg-light container p-5 mt-5 pt-5'>
             <Form onSubmit={handelLogin} className=''>
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Email address</Form.Label>
